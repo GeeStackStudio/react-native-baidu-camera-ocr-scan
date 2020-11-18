@@ -87,6 +87,10 @@ public class QRCodeActivity extends AppCompatActivity implements QRCodeView.Dele
 //        mZBarView.startSpot(); // 延迟0.5秒后开始识别
 
     }
+    @Override
+    public void onCameraAmbientBrightnessChanged(boolean isDark) {
+    }
+
 
     @Override
     public void onScanQRCodeOpenCameraError() {
